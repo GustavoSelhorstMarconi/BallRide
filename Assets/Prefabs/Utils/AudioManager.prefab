@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2118420671644674579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2118420671644674576}
+  - component: {fileID: 2118420671644674577}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2118420671644674576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118420671644674579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0527573, y: 1.4562192, z: 117.70732}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2118420671644674577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118420671644674579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a91377024e41f7d45a19a225c887f318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audios:
+  - name: ThemeSong
+    sound: {fileID: 8300000, guid: 4f96bbea4c48892479b3aec4dd3717f3, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    isLoop: 1
+    source: {fileID: 0}
+  - name: ThemeSongSpeedMode
+    sound: {fileID: 8300000, guid: 73a9c6a83f532dd4dade6894c13ed24e, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    isLoop: 1
+    source: {fileID: 0}
+  - name: Explosion
+    sound: {fileID: 8300000, guid: a22cc6fe7ddf4374890de074960d06d6, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0.9
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Win
+    sound: {fileID: 8300000, guid: c50a17433f303e241aa1ce84740c7a36, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Lose
+    sound: {fileID: 8300000, guid: 137e4843a1d8a314985829f969b2d8a0, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Portal
+    sound: {fileID: 8300000, guid: 110c1d880cabbdf44853a3f27802e2d6, type: 3}
+    volume: 1
+    pitch: 1.1
+    spatialBlend: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Laser
+    sound: {fileID: 8300000, guid: d3c6c092429e4f84a8c91d8f23648191, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    isLoop: 0
+    source: {fileID: 0}

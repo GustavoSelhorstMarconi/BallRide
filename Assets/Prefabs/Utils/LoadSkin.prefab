@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4057680326293398328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4057680326293398326}
+  - component: {fileID: 4057680326293398329}
+  m_Layer: 0
+  m_Name: LoadSkin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4057680326293398326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4057680326293398328}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.469147, y: -6.9961944, z: 11.973885}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4057680326293398329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4057680326293398328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71859a698301292448f9022465417e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinsPrefabs:
+  - {fileID: 6194506435884115139, guid: 77ecfc8bdcb4263469f54323b11658e8, type: 3}
+  - {fileID: 3630534453357422552, guid: 97a4b8dca58cf38429503d8810617d4b, type: 3}
+  - {fileID: 7013962826753249012, guid: 6305c8999edcfbc449a24cf2cffd346e, type: 3}
+  - {fileID: 5957918888772414579, guid: 8ebcab83e4784a641b9208afb6f65118, type: 3}
+  - {fileID: 6932329024971951863, guid: fab62edcd6bc8a148884613fc0bbb131, type: 3}
+  - {fileID: 984047019585066943, guid: 07ea95eedd6605a469da49dc6320da0b, type: 3}
+  - {fileID: 1680040144884084682, guid: 08b783895538dce429a3cfd268f6781d, type: 3}
+  player: {fileID: 0}
+  offset:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0.33, z: 0}
+  - {x: 0, y: 0.345, z: 0}
+  - {x: 0, y: 0.33, z: 0}
+  - {x: 0, y: 0.12, z: 0}
+  - {x: 0, y: 0.12, z: 0}
+  - {x: 0, y: 0.35, z: 0}
+  bombMaterial: {fileID: 2100000, guid: 3cadf6bbac38ac64d9772b63f0a16c79, type: 2}
